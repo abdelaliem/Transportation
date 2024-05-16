@@ -1,0 +1,109 @@
+:root{
+    --main-color :#3B71FE
+}
+body{
+    background-size: cover;
+}
+.nav-item{
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: var(--main-color);
+}
+
+.navbar-brand{
+    color: var(--main-color);
+}
+
+.bi-pinterest{
+    color: red;
+}
+.sidebar-right {
+    margin-top: 2%;
+}
+.bi-facebook{
+    color: #0d6efd;
+}
+.bi-whatsapp{
+    color: #3cba54;}
+.bi-plus-circle{
+    color:#3b71fe;
+    }
+.copyrights{
+    background-color: #3b71fe;
+}
+.brand{
+    color: #3b71fe;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 10px 15px 10px;
+}
+
+.main-content{
+    background: rgb(1, 1, 36);
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 25%);
+    margin: 20px auto;
+    padding: 3em 4em;
+    color: #1e1f44;  
+}
+.faq{
+    color: #fff;
+    background-color: #1e1f44 ;
+    border-radius: 7px;
+    margin: 15px;
+    border: solid 1px #3b5998;
+}
+.accordion-button{
+    background-color: #1e1f44 !important;
+    color: #fff !important;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.dark{
+    background-color: rgb(40, 40, 40);
+    color: white;
+}
+span{ 
+    transition: all 0.5s ease;
+}
+span.fade{
+    color: var(--main-color);
+}
+.bi-share{
+color: #fff;   
+align-self: center;
+}
+.icon{
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.share_icons{
+    width: 20%;
+    padding: 20px;
+}
+.share_icons svg{
+    background-color: #fff;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.share_icons img{
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+.card{
+    background-color: #1e1f44;
+}
+.fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}

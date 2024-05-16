@@ -1,0 +1,124 @@
+:root {
+    --main-color: #3B71FE
+}
+
+body {
+    background-size: cover;
+    background-color: #eee;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.nav-link:hover {
+    color: var(--main-color);
+}
+
+.navbar-brand {
+    color: var(--main-color);
+}
+
+.copyrights {
+    background-color: #3b71fe;
+}
+
+.brand {
+    color: #3b71fe;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px 10px 15px 10px;
+}
+
+.main-content {
+    background: #fff;
+    border: solid gray 1px;
+    border-radius: 5px;
+    box-shadow: 0 6px 12px rgb(0 0 0 / 25%);
+    margin: 20px auto;
+    padding: 3em 4em;
+    color: #1e1f44;
+}
+
+.faq {
+    border: solid gray 1px;
+    border-radius: 7px;
+    margin: 15px;
+    background: #fff;
+    color: #1e1f44 !important;
+
+
+}
+
+.accordion-button {
+
+    color: #1e1f44 !important;
+}
+
+h1 {
+    color: #1e1f44;
+    text-align: center;
+
+}
+
+span {
+    transition: all 0.5s ease;
+
+}
+
+span.fade {
+    color: var(--main-color);
+}
+
+.bi-share {
+    color: #fff;
+    align-self: center;
+
+}
+
+.icon {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #3b5998;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.share_icons {
+    width: 20%;
+    padding: 20px;
+
+}
+
+.share_icons svg {
+    background-color: #fff;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.share_icons img {
+    background-color: #fff;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+.card {
+    background: #fff;
+    color: #1e1f44 !important;
+}
+
+.sidebar-right {
+    margin-top: 2%;
+}
+
+svg {
+    color: #3b5998;
+}
+
+svg:hover {
+    color: #3b71fe;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egy transportation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/demoTicket.css">
+    <link rel="icon" type="image/x-icon" href="images/6.jpg" style="border-radius: 50%">
+</head>
+
+<body>
+    <form>
+        <div class="row justify-content-between ">
+            <div class="col">
+                <label  class="form-label " >Passenger Name</label>
+                <input onblur="typing()"class="form-control pname " type="text">
+            </div>
+            <div class="col">
+                <label class="form-label" >Terminal</label>
+                <input onblur="typing1()" class="form-control terminal " type="text">
+            </div>
+            <div class="col ">
+                <label class="form-label" >Gate</label>
+                <input onblur="typing2()" class="form-control gate" type="text">
+            </div>
+            <div class="col">
+                <label class="form-label">Flight Number</label>
+                <input onblur="typing3()" class="form-control flight" type="number">
+            </div>
+            <div class="col">
+                <label class="form-label">Seat</label>
+                <input onblur="typing4()" class="form-control seat" type="text">
+            </div>
+        </div>
+        <div class="row justify-content-between ">
+            <div class="col">
+                <label class="form-label">From</label>
+                <input onblur="typing5()" class="form-control from" type="text">
+            </div>
+            <div class="col">
+                <label class="form-label">To</label>
+                <input onblur="typing6()" class="form-control to" type="text">
+            </div>
+        </div>
+    </form>
+    <div class="pre-ticket">
+        <div class="ticket airline mt-5 m-auto  ">
+            <div class="destination">
+                <h1 class="mb-2" >EgyptAir</h1>
+                <div class="small-des">
+                    <p>From: <span id="from" ></span></p>
+                    <p>To: <span id="to" ></span></p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="info">
+                    <div class="row">
+                        <p><span id="pname" ></span>Passenger Name</p>
+                    </div>
+                    <div class="row">
+                        <p><span id="terminal"></span> Terminal</p>
+                        <p><span id="gate"></span>Gate</p>
+                    </div>
+                    <div class="row">
+                        <p><span id="flight"></span>Flight Number</p>
+                        <p><span id="seat"></span>Seat</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cut">
+                <img src="images/barCode.jpg" alt="QR Code" class="QRCODE">
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/demoTicket.js"></script>
+</body>
+
+</html>
